@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/speclib/v1/PDS4_SPECLIB_1B00_1000.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:speclib="http://pds.nasa.gov/pds4/speclib/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+                        https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd
+                        http://pds.nasa.gov/pds4/speclib/v1
+                        https://pds.nasa.gov/pds4/speclib/v1/PDS4_SPECLIB_1B00_1000.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:relab:data_reflectance:c1mt323</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>RELAB Spectrum ID c1mt323</title>
+        <information_model_version>1.11.0.0</information_model_version>
+        <product_class>Product_Observational</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2021-11-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial release</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>2017-07-18Z</start_date_time>
+            <stop_date_time>2017-07-18Z</stop_date_time>
+        </Time_Coordinates>
+        <Primary_Result_Summary>
+            <purpose>Science</purpose>
+            <processing_level>Calibrated</processing_level>
+        </Primary_Result_Summary>
+        <Investigation_Area>
+            <name>RELAB</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.relab_speclib</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <name>RELAB</name>
+            <description>Brown University Reflectance Spectroscopy Laboratory</description>
+            <Observing_System_Component>
+                <name>NASA/Keck Reflectance Experiment Laboratory (RELAB)</name>
+                <type>Facility</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:facility:laboratory.relab</lid_reference>
+                    <reference_type>is_facility</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+            <Observing_System_Component>
+                <name>RELAB Bidirectional Spectrometer</name>
+                <type>Instrument</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:instrument:relab.bd-vnir</lid_reference>
+                    <reference_type>is_instrument</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>MT-JMS-323</name>
+            <type>Meteorite</type>
+        </Target_Identification>
+        <Discipline_Area>
+            <speclib:Spectral_Library_Product>
+                <speclib:Specimen_Parameters>
+                    <speclib:specimen_id>MT-JMS-323</speclib:specimen_id>
+                    <speclib:specimen_name>ALH 84007 (Aubrite) &lt;45 um</speclib:specimen_name>
+                    <speclib:specimen_description>Achondrite, Enstatite Achondrite Aubrite,</speclib:specimen_description>
+                    <speclib:specimen_min_size unit="micrometer">0</speclib:specimen_min_size>
+                    <speclib:specimen_max_size unit="micrometer">45</speclib:specimen_max_size>
+                    <speclib:specimen_collection_location>Allan Hills, Antarctica</speclib:specimen_collection_location>
+                    <speclib:specimen_owner_location>University of Maryland</speclib:specimen_owner_location>
+                    <speclib:specimen_owner_name>Jessica M. Sunshine</speclib:specimen_owner_name>
+                </speclib:Specimen_Parameters>
+                <speclib:Specimen_Classification>
+                    <speclib:specimen_type>Other Meteorite</speclib:specimen_type>
+                    <speclib:material_origin>Natural</speclib:material_origin>
+                    <speclib:material_state>Solid</speclib:material_state>
+                    <speclib:organic_type>Inorganic</speclib:organic_type>
+                    <speclib:material_type>Rock</speclib:material_type>
+                    <speclib:material_subtype>Particulate</speclib:material_subtype>
+                    <speclib:material_subtype>Particulate Ground</speclib:material_subtype>
+                    <speclib:rock_type>Igneous</speclib:rock_type>
+                    <speclib:rock_subtype>Aubrite</speclib:rock_subtype>
+                </speclib:Specimen_Classification>
+                <speclib:measurement_segments>1</speclib:measurement_segments>
+                <speclib:Measurement_Parameters>
+                    <speclib:segment_number>1</speclib:segment_number>
+                    <speclib:Measurement_Instrument>
+                        <speclib:instrument_name>RELAB Bidirectional Spectrometer</speclib:instrument_name>
+                        <Internal_Reference>
+                            <lid_reference>urn:nasa:pds:context:instrument:relab.bd-vnir</lid_reference>
+                            <reference_type>is_instrument</reference_type>
+                        </Internal_Reference>
+                    </speclib:Measurement_Instrument>
+                    <speclib:measurement_type>Reflectance</speclib:measurement_type>
+                    <speclib:spectral_range_parameter_name>Wavelength</speclib:spectral_range_parameter_name>
+                    <speclib:spectral_range_min>320</speclib:spectral_range_min>
+                    <speclib:spectral_range_max>2550</speclib:spectral_range_max>
+                    <speclib:spectral_range_unit>nm</speclib:spectral_range_unit>
+                    <speclib:measurement_geometry_type>Bidirectional</speclib:measurement_geometry_type>
+                    <speclib:incidence_angle unit="deg">30</speclib:incidence_angle>
+                    <speclib:emission_angle unit="deg">0</speclib:emission_angle>
+                    <speclib:phase_angle unit="deg">30</speclib:phase_angle>
+                    <speclib:measurement_atmosphere_relative_humidity xsi:nil="true" nilReason="unknown"/>
+                    <speclib:measurement_atmosphere_description>Ambient</speclib:measurement_atmosphere_description>
+                    <speclib:measurement_date_time>2017-07-18</speclib:measurement_date_time>
+                    <speclib:data_producer_name>RELAB</speclib:data_producer_name>
+                    <speclib:data_provider_name>RELAB</speclib:data_provider_name>
+                    <speclib:measurement_requestor>Jessica M. Sunshine</speclib:measurement_requestor>
+                </speclib:Measurement_Parameters>
+                <speclib:Ancillary_Product>
+                    <Internal_Reference>
+                        <lid_reference>urn:nasa:pds:relab:data_ancillary_image:mt-jms-323_on9mmdish</lid_reference>
+                        <reference_type>data_to_ancillary_data</reference_type>
+                    </Internal_Reference>
+                    <speclib:ancillary_product_type>Image</speclib:ancillary_product_type>
+                </speclib:Ancillary_Product>
+            </speclib:Spectral_Library_Product>
+        </Discipline_Area>
+    </Observation_Area>
+    <File_Area_Observational>
+        <File>
+            <file_name>c1mt323.tab</file_name>
+            <creation_date_time>2017-07-18</creation_date_time>
+        </File>
+        <Table_Character>
+            <name>Reflectance Spectrum</name>
+            <offset unit="byte">8</offset>
+            <records>224</records>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <Record_Character>
+                <fields>3</fields>
+                <groups>0</groups>
+                <record_length unit="byte">31</record_length>
+                <Field_Character>
+                    <name>Wavelength</name>
+                    <field_number>1</field_number>
+                    <field_location unit="byte">1</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">10</field_length>
+                    <unit>nm</unit>
+                </Field_Character>
+                <Field_Character>
+                    <name>Reflectance</name>
+                    <field_number>2</field_number>
+                    <field_location unit="byte">12</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">8</field_length>
+                </Field_Character>
+                <Field_Character>
+                    <name>Standard_Deviation</name>
+                    <field_number>3</field_number>
+                    <field_location unit="byte">20</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">10</field_length>
+                </Field_Character>
+            </Record_Character>
+        </Table_Character>
+    </File_Area_Observational>
+</Product_Observational>

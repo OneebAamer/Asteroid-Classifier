@@ -1,0 +1,32 @@
+     8
+    630.0   0.14744   0.00778
+    760.0   0.14757   0.00886
+    890.0   0.10470   0.00574
+   1020.0   0.10391   0.00496
+   1150.0   0.12203   0.00559
+   1280.0   0.13124   0.00571
+   1410.0   0.14601   0.00655
+   1540.0   0.15240   0.00692
+
+
+
+ C6OC10C             .ASC                        
+
+ OC-TXH-010-C                                                            
+ Alta'ameem (LL5) <125 um remake                                         
+ (60, 0) / Spectralon (30, 0)                                            
+ * User: TXH                                                             
+ * Research Type: Active Missions, DDAP, Hayabusa,                       
+ * NASA PI/CoI or Sponsor: TXH                                           
+ * BVC: Brown Planetary Geosciences                                      
+ * Public Release Date: 05/19/2009                                       
+ * Run Mode: All Wavelengths for Each Sample                             
+ * Stage Type: Automatic                                                 
+ * Spinning: Yes                                                         
+ * Aperture Size: 7.0 mm                                                 
+ * Scrambler: In                                                         
+ * Depolarizer: In                                                       
+ RATIOS ADJUSTED USING RELAB SRS-99 REFLECTANCE SPECTRUM (SRS99C.DAT)    
+
+ Source Ang: 30.00   Detect Ang:  0.00  Volt: 0.777
+ Date: 19-MAY-06   Time: 14:34:47
